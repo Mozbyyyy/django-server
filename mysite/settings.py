@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ["railway"],
-        'USER': os.environ["postgres"],
-        'PASSWORD': os.environ["2D3b1D-*FDgdAdA4EBba2dfaeeeefFE*"],
-        'HOST': os.environ["roundhouse.proxy.rlwy.net"],
-        'PORT': os.environ["53119"],
+        'NAME': "railway",
+        'USER': "postgres",
+        'PASSWORD': "2D3b1D-*FDgdAdA4EBba2dfaeeeefFE*",
+        'HOST': "roundhouse.proxy.rlwy.net",
+        'PORT': "53119",
     }
 }
 
