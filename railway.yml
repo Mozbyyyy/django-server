@@ -1,0 +1,6 @@
+name: myapp
+
+services:
+  - name: web
+    command: gunicorn mysite.wsgi:application
+    port: $PORT
