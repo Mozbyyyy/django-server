@@ -3,5 +3,5 @@ from .views import index
 
 
 urlpatterns = [
-    path('admin/', index),
+    path('', index),
 ]
